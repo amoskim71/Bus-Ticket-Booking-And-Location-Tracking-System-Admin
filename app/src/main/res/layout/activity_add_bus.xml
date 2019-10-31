@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/destop"
+    android:orientation="vertical"
+    tools:context=".AddBusActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="Bus Details" />
+
+    <EditText
+        android:id="@+id/travelsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="15dp"
+        android:hint="Travels Name" />
+
+    <EditText
+        android:id="@+id/busNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:inputType="textPersonName"
+        android:hint="Bus Number" />
+
+    <EditText
+        android:id="@+id/journeyDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18dp"
+        android:layout_margin="15dp"
+        android:hint="Journey Date"
+        android:inputType="date" />
+    <!--<TextView-->
+        <!--android:id="@+id/tvDate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_margin="7dp"-->
+        <!--android:fontFamily="serif"-->
+        <!--android:background="@android:drawable/btn_default"-->
+        <!--android:gravity="center"-->
+        <!--android:hint="SET DATE" />-->
+    <Spinner
+        android:id="@+id/busFrom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:spinnerMode="dropdown"/>
+    <Spinner
+        android:id="@+id/busTo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:spinnerMode="dropdown"/>
+    <Spinner
+        android:id="@+id/busCondition"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/addBus"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="40dp"
+        android:background="@color/i"
+        android:text="Add Bus" />
+
+
+</LinearLayout>

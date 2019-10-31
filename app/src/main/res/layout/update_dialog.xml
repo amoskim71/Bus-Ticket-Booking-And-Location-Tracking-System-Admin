@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/destop"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTexttravelsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="5dp"
+        android:text="Shana Travels" />
+
+    <EditText
+        android:id="@+id/editTextbusNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:inputType="textPersonName"
+        android:text="BHE9870" />
+
+    <EditText
+        android:id="@+id/editTextjourneyDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:hint="Journey Date"
+        android:text="31-10-2019" />
+    <EditText
+        android:id="@+id/editTextbusFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:text="Jaffna"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/editTextbusTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:text="Colombo"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/editTextbusCondition"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:text="A/C Sleepers"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:background="@color/i"
+        android:text="Update" />
+    <Button
+        android:id="@+id/buttonDelete"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:background="@color/i"
+        android:text="Delete" />
+
+</LinearLayout>
